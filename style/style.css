@@ -2,11 +2,16 @@
 
 @import url('https://fonts.googleapis.com/css2? family= Lato:ital,wght@0,100;0,300;1,100;1,400 & display=swap');
 
+@font-face{
+    font-family: Gotham;
+    src: local(Gotham), url(../Gotham/Gotham-Light.otf);
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Lato";
+    font-family: Gotham;
 }
 
 html,body{

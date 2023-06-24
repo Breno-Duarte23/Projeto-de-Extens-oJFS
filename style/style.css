@@ -73,7 +73,7 @@ header{
 
 /* Configurações menu */
 .center-nav{
-    width: 100%;
+    width: 60%;
     margin: 0 auto;
     position: relative;
     top: 70px;
@@ -138,12 +138,9 @@ footer{
     box-shadow: 0px 2px 3px #279eee5d;
 }
 
-<<<<<<< HEAD
 footer p{
     margin-top: 5px;
 }
-=======
->>>>>>> 9ad1a5aca34a422eff52dbe98d3c9ac7e5f16c69
 
 .txt-rodape{
     position: relative;

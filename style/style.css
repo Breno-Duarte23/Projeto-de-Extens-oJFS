@@ -117,6 +117,10 @@ footer{
     box-shadow: 0px 2px 3px #279eee5d;
 }
 
+footer p{
+    margin-top: 25px;
+}
+
 .txt-rodape{
     position: relative;
     top: 10px;
@@ -136,13 +140,13 @@ footer{
     }
 
     nav ul{
-        margin-top: -50px;
+        margin-top: -59px;
         position: absolute;
         top: 0;
     }
 
     nav ul li{
-        padding: 7px;
+        padding: 10px;
         display: block;
         width: 100%;
     }

@@ -15,14 +15,24 @@
             padding: 20px;
         }
 
+        .foto-escola{
+            width: 400px;
+            float: left;
+            border: 1px solid red;
+            margin: 15px;
+        }
+
         .conteudo h2{
+            margin-bottom: 10px;
             text-transform: uppercase;
             font-family: Gotham-Black;
             padding: 7px 0;
         }
 
         .conteudo p{
+            
             text-align: justify;
+            border: 1px solid red;
             line-height: 1.5em;
             padding-left: 40px;
             padding-right: 20px;
@@ -32,6 +42,12 @@
             line-height: 1.5em;
             margin-left: 50px;
             list-style-image: url('')
+        }
+
+        @media screen and (max-width:600) {
+            .foto-escola{
+                margin: 0 auto;
+            }
         }
 
     </style>
@@ -66,10 +82,12 @@
         <div class="conteudo">
 
             <h2>Como a escola foi fundada?</h2>
-                <img src="/images/escola.jpg" style="max-width: 80%; text-align: center; margin-left: 10%;" alt="">
+                <div class="foto-escola"><img src="images/escola.jpg" width="100%" alt="Fotografia tirada da escola municipal José Felipe Sad"></div>
             <p> A Escola Municipal José Felipe Sad completa 50 anos de funcionamento. Com terreno e mão de obra doados pelo 9º Batalhão da Polícia Militar de Minas Gerais (PMMG) e auxílio do Rotary Club, a escola teve sua aula inaugural em 20 de setembro de 1965. Em 1970, ainda com auxílio do 9º batalhão, foram construídas mais duas salas para atender o crescente contingente de alunos. Em 1998 a escola deixa de ser estadual e passa a ser fomentada pelo Município de Barbacena.
             Atualmente a escola funciona em dois turnos com aproximadamente 380 alunos matriculados na Educação Infantil – a partir de 2 anos; Ensino Fundamental – 1º ao 5º ano; Mais Educação – tempo integral. A Escola José Felipe Sad é um dos estabelecimentos de ensino mais importantes da rede municipal.
             </p><br>
+
+            <div class="clear"></div>
 
             <h2>Infraestrutura da escola</h2>
 

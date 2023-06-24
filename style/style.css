@@ -35,7 +35,7 @@ body{
 
 header{
     width: 100%;
-    height: 150px;
+    height: 170px;
     background: linear-gradient(#279eee, #236d9e);
     padding: 10px;
     box-shadow: 0px 2px 3px #279eee5d;
@@ -65,7 +65,7 @@ header{
 
 .center{
     width: 100%;
-    max-width: 1024px;
+    max-width: 1240px;
     margin: 0 auto;
 }
 
@@ -73,7 +73,7 @@ header{
 
 /* Configurações menu */
 .center-nav{
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
     position: relative;
     top: 70px;
@@ -91,6 +91,7 @@ header{
     text-decoration: none;
     font-size: 18px;
     padding: 10px;
+    transition: 0.6s;
 }
 
 .center-nav li a:hover{
@@ -137,9 +138,12 @@ footer{
     box-shadow: 0px 2px 3px #279eee5d;
 }
 
+<<<<<<< HEAD
 footer p{
     margin-top: 5px;
 }
+=======
+>>>>>>> 9ad1a5aca34a422eff52dbe98d3c9ac7e5f16c69
 
 .txt-rodape{
     position: relative;

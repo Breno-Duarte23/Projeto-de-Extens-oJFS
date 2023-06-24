@@ -124,3 +124,26 @@ footer{
     color: white;
     font-size: 0.8em;
 }
+
+@media screen and (max-width:1024px) {
+
+    .logo-escola, .logo-prefeitura{
+        display: none;
+    }
+
+    header{
+        height: 200px;
+    }
+
+    nav ul{
+        margin-top: -50px;
+        position: absolute;
+        top: 0;
+    }
+
+    nav ul li{
+        padding: 7px;
+        display: block;
+        width: 100%;
+    }
+}

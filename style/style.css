@@ -73,7 +73,7 @@ header{
 
 /* Configurações menu */
 .center-nav{
-    width: 100%;
+    width: 60%;
     margin: 0 auto;
     position: relative;
     top: 70px;
@@ -136,6 +136,10 @@ footer{
     background: linear-gradient( #236d9e, #279eee);
     padding-top: 35px;
     box-shadow: 0px 2px 3px #279eee5d;
+}
+
+footer p{
+    margin-top: 5px;
 }
 
 .txt-rodape{

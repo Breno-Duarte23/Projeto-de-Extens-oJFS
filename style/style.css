@@ -73,7 +73,7 @@ header{
 
 /* Configurações menu */
 .center-nav{
-    width: 100%;
+    width: 60%;
     margin: 0 auto;
     position: relative;
     top: 70px;
@@ -81,6 +81,7 @@ header{
 }
 
 .center-nav li{
+    width: 100%;
     margin: 0 auto;
     list-style: none;
     display: inline-block;
@@ -125,6 +126,9 @@ header{
     width: 150px;
     height: 150px;
     float: right;
+}
+
+.swiffy-slider{
 }
 
 

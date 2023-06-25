@@ -108,8 +108,8 @@ header{
 
 /* Fim das configurações do menu */
 
-/* Início das configurações do Conteúdo */
 
+/* Início das configurações do Conteúdo */
 
 .conteudo{
     padding: 8px;
@@ -129,6 +129,23 @@ header{
 }
 
 .swiffy-slider{
+<<<<<<< Updated upstream
+=======
+    border: 1px solid green;
+    width: 100%;
+    height: auto;
+}
+
+.slider-container{
+    height: auto;
+}
+
+.slider-container li img{
+    width: 80%;
+    margin-left: 10%;
+    height: auto;
+    border: 1px solid red;
+>>>>>>> Stashed changes
 }
 
 

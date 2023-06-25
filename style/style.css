@@ -108,32 +108,20 @@ header{
 
 /* Fim das configurações do menu */
 
-
 /* Início das configurações do Conteúdo */
 
 .conteudo{
-    padding: 8px;
+    padding: 10px;
     background-color: white;
     margin-top: 2px;
     border-radius: 5px;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.336);
     font-size: 1.1em;
-    padding-bottom: 0;
-}
-
-.imagem{
-    border: 1px solid red;
-    width: 150px;
-    height: 150px;
-    float: right;
 }
 
 .swiffy-slider{
-<<<<<<< Updated upstream
-=======
-    border: 1px solid green;
-    width: 100%;
-    height: auto;
+    left: 20%;
+    padding: 5px;
 }
 
 .slider-container{
@@ -141,11 +129,8 @@ header{
 }
 
 .slider-container li img{
-    width: 80%;
-    margin-left: 10%;
+    width: 100%;
     height: auto;
-    border: 1px solid red;
->>>>>>> Stashed changes
 }
 
 

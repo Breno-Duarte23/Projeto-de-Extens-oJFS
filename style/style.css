@@ -110,22 +110,27 @@ header{
 
 /* Início das configurações do Conteúdo */
 
-
 .conteudo{
-    padding: 8px;
+    padding: 10px;
     background-color: white;
     margin-top: 2px;
     border-radius: 5px;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.336);
     font-size: 1.1em;
-    padding-bottom: 0;
 }
 
-.imagem{
-    border: 1px solid red;
-    width: 150px;
-    height: 150px;
-    float: right;
+.swiffy-slider{
+    left: 20%;
+    padding: 5px;
+}
+
+.slider-container{
+    height: auto;
+}
+
+.slider-container li img{
+    width: 100%;
+    height: auto;
 }
 
 

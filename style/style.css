@@ -83,7 +83,7 @@ header{
 .center-nav li{
     list-style: none;
     display: inline-block;
-    padding: 10px;
+    padding: 9px;
 }
 
 .center-nav li a{
